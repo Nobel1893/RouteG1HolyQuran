@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SurasList">
+    tools:context=".TestDrawer">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
-        <include layout="@layout/toolbar"/>
-
+      <include layout="@layout/toolbar"/>
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_suras_list" />
+    <include layout="@layout/content_test_drawer" />
+
 
 </android.support.design.widget.CoordinatorLayout>

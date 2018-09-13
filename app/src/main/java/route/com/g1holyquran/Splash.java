@@ -18,7 +18,7 @@ public class Splash extends MyBaseActivity {
             @Override
             public void run() {
                 HideProgressBar();
-                startActivity(new Intent(activity,SurasList.class));
+                startActivity(new Intent(activity,HomeActivity.class));
             }
         },2000);
     }

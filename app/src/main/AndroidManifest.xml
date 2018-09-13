@@ -19,6 +19,13 @@
         <activity
             android:name=".SurasList"
             android:label="@string/title_activity_suras_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home" />
+        <activity
+            android:name=".TestDrawer"
+            android:label="@string/title_activity_test_drawer"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
