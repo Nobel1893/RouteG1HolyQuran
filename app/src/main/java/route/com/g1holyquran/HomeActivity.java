@@ -29,6 +29,9 @@ public class HomeActivity extends MyBaseActivity {
                 case R.id.navigation_ahadeth:
                     fragment= new AhadeathFragment();
                     break;
+                    case R.id.navigation_radio:
+                    fragment= new RadioFragment();
+                    break;
             }
 
             Log.e("fragment","replacing fragment");

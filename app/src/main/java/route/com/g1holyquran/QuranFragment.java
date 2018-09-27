@@ -1,6 +1,7 @@
 package route.com.g1holyquran;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -55,7 +56,9 @@ public class QuranFragment extends MyBaseFragment {
         adapter.setOnItemClickListener(new SurasRecyclerAdapter.OnItemClickListener() {
             @Override
             public void OnItemClick(int position) {
-
+                Intent i= new Intent(activity,SuraContent.class);
+                i.putExtra("fileName",(position+1)+".txt");
+                startActivity(i);
             }
         });
 

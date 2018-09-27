@@ -9,5 +9,9 @@
         android:id="@+id/navigation_ahadeth"
         android:icon="@drawable/ic_dashboard_black_24dp"
         android:title="@string/title_hadeath" />
+ <item
+        android:id="@+id/navigation_radio"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_radio" />
 
 </menu>

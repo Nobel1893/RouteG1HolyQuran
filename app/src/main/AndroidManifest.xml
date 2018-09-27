@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="route.com.g1holyquran">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -26,6 +27,10 @@
         <activity
             android:name=".TestDrawer"
             android:label="@string/title_activity_test_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SuraContent"
+            android:label="@string/title_activity_sura_content"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

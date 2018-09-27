@@ -13,13 +13,17 @@ public class Splash extends MyBaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        ShowProgressBar();
+
+
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                HideProgressBar();
                 startActivity(new Intent(activity,HomeActivity.class));
             }
         },2000);
+
+
     }
+
+
 }
